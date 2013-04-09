@@ -13,7 +13,7 @@ To use HeaderGridView in your projects, simply add this project to your workspac
 
 HeaderGridView can be added as a custom view to any layout. 
 
-instead of <GridView /> use...
+instead of ```xml <GridView /> ``` use…
 ```xml
     <com.origamilabs.library.views.HeaderGridView />
 ```
