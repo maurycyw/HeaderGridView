@@ -19,10 +19,8 @@ instead of ``` <GridView /> ``` use…
 ```
 then simply add header views via
 ```xml
+    // same methods as ListView
     addHeaderView(View v, Object data, boolean isSelectable);
-```
-or
-```xml
     addHeaderView(View v);
 ```
 
