@@ -17,6 +17,14 @@ instead of ``` <GridView /> ``` use…
 ```xml
     <com.origamilabs.library.views.HeaderGridView />
 ```
+then simply add header views via
+```xml
+    addHeaderView(View v, Object data, boolean isSelectable);
+```
+or
+```xml
+    addHeaderView(View v);
+```
 
 ## Tests
 
